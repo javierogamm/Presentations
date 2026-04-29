@@ -1,5 +1,13 @@
 # Log de cambios
 
+## v2.11.0 - 2026-04-29
+- En la diapositiva de **Flujo y lógicas de tramitación** (`Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html`) se sustituyeron los iconos del primer pantallazo por recursos gráficos locales según la correspondencia solicitada:
+  - **Fases resolutorias** → `recursos/resolucion.png`
+  - **Subprocesos** → `recursos/flujograma.png`
+  - **Nodos especiales** → `recursos/automatización.png`
+- Se mantiene coherencia visual con el inventario de recursos y se evita dependencia de iconografía previa no alineada con el criterio actual.
+- Consolidación de versión de la app: **v2.11.0**.
+
 ## v2.10.0 - 2026-04-29
 - Se creó `conocimientos.md` con una base detallada y estructurada sobre: tesauros (modelo de datos), tipologías y tipado fuerte, niveles de configuración, obligatoriedad, clasificación/agrupación, momento de captura, estados de tramitación, tipos de tareas, lógicas de salida, automatización, subprocesos y circuitos de resolución.
 - Se incorporó en `conocimientos.md` una guía editorial para trasladar estos conceptos a presentaciones, incluyendo mensajes clave, errores a evitar y checklist operativo previo al diseño.
