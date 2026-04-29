@@ -86,3 +86,7 @@
 - Slide 4 (`Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html`): se eliminó el texto "Si una pieza está incompleta...", se renombró "Arquitectura mínima viable" por "Arquitectura de la plataforma" y se redistribuyó el espacio del layout.
 - Slide 4: se añadió un cuarto bloque "Analítica de datos" con icono de gráfico de tarta y se equilibró la grilla en 2x2.
 - Consolidación de versión de la app: **v2.6.0**.
+
+## v2.9.0 - 2026-04-29
+- Se creó `AGENTS.md` en la raíz del repositorio con directrices obligatorias para diseño de presentaciones: revisión de presentaciones existentes, uso del documento de recursos gráficos, estilo elegante y consistente, animaciones sencillas y tono moderno.
+- Consolidación de versión de la app: **v2.9.0**.
