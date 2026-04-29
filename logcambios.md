@@ -125,3 +125,12 @@
 ## v2.9.0 - 2026-04-29
 - Se creó `AGENTS.md` en la raíz del repositorio con directrices obligatorias para diseño de presentaciones: revisión de presentaciones existentes, uso del documento de recursos gráficos, estilo elegante y consistente, animaciones sencillas y tono moderno.
 - Consolidación de versión de la app: **v2.9.0**.
+
+## v1.0.0 - 2026-04-29
+- Se construyó una aplicación web completa tipo editor de presentaciones HTML.
+- Se añadieron las pantallas `public/index.html` y `public/editor.html` con sidebar, editor Monaco, botón guardar y preview iframe en vivo.
+- Se implementaron módulos frontend en `js/` para carga de archivos, edición, preview por Blob y persistencia vía API.
+- Se implementaron API routes en `api/` para listar, leer y guardar archivos en GitHub usando variables de entorno seguras.
+- Se añadió `vercel.json` para rutas limpias (`/` y `/editor`) y despliegue compatible con Vercel.
+- Se actualizó `.gitignore` con exclusiones de entorno y artefactos locales.
+- Se creó documentación operativa y de despliegue en `README.md`.
