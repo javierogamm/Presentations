@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Subprocesos">
+  <circle cx="32" cy="24" r="10" fill="#1f7fd5"/>
+  <circle cx="96" cy="24" r="10" fill="#1f7fd5"/>
+  <circle cx="32" cy="104" r="10" fill="#1f7fd5"/>
+  <circle cx="96" cy="104" r="10" fill="#1f7fd5"/>
+  <rect x="54" y="54" width="20" height="20" rx="4" fill="#0d1b2a"/>
+  <path d="M42 30 L58 54 M86 30 L70 54 M42 98 L58 74 M86 98 L70 74" stroke="#0d1b2a" stroke-width="6" stroke-linecap="round" fill="none"/>
+</svg>

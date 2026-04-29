@@ -57,3 +57,11 @@
   - Slide 9: se rehízo como slide específica de flujo y lógicas con desglose 2.1/2.2/2.3.
   - Se añadió un nuevo slide 10 para separar y ampliar "Modelo de datos" y "Agentes" (partición del contenido que antes estaba condensado), manteniendo coherencia narrativa.
   - Se renumeraron etiquetas y contadores finales de diapositivas para reflejar la nueva estructura de 12 slides.
+
+## v2.5.0 - 2026-04-29
+- Se rehízo la diapositiva **09 Flujo y lógicas** en `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` para que siga la misma estructura visual de la diapositiva 07 (título + lead + 3 tarjetas horizontales).
+- Se incorporaron iconos específicos para la diapositiva de flujo: `recursos/icono-subprocesos.svg`, `recursos/icono-fases.svg` y `recursos/icono-nodos.svg`.
+- Se dividió el contenido de la antigua diapositiva de **Modelo de datos y agentes** en dos diapositivas independientes y homogéneas con la 07:
+  - Nueva diapositiva 10: **Modelo de datos del procedimiento**.
+  - Nueva diapositiva 11: **Agentes, roles y órganos resolutorios**.
+- Se renumeró la secuencia final de la presentación de 12 a 13 diapositivas para mantener coherencia en pies y etiquetas.
