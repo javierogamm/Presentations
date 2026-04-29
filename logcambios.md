@@ -125,3 +125,19 @@
 ## v2.9.0 - 2026-04-29
 - Se creó `AGENTS.md` en la raíz del repositorio con directrices obligatorias para diseño de presentaciones: revisión de presentaciones existentes, uso del documento de recursos gráficos, estilo elegante y consistente, animaciones sencillas y tono moderno.
 - Consolidación de versión de la app: **v2.9.0**.
+
+## v3.0.0 - 2026-04-29
+- Se creó una aplicación web completa tipo editor de presentaciones HTML con arquitectura separada frontend/backend para Vercel.
+- Se añadieron nuevas vistas en `public/index.html` (landing con botón EDITAR) y `public/editor.html` (sidebar de archivos, Monaco, guardado y preview en vivo).
+- Se implementó frontend modular en `/js`:
+  - `app.js` para mantener la visualización de presentaciones como landing por defecto.
+  - `editor.js` para carga/edición/guardado de archivos con manejo de errores y estados.
+  - `githubService.js` para consumir API routes de forma segura.
+  - `preview.js` para vista previa instantánea con `Blob` + `iframe` sin redeploy.
+- Se implementaron API routes en `/api` para persistencia en GitHub:
+  - `getFiles.js`, `getFile.js`, `saveFile.js`, `commitChanges.js`.
+  - soporte de variables de entorno seguras (`GITHUB_TOKEN`, `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BRANCH`) exclusivamente en backend.
+- Se añadió `api/_github.js` como helper común para autenticación y llamadas a GitHub API con manejo centralizado de errores.
+- Se añadió `vercel.json` para enrutar landing/editor y dejar despliegue listo en Vercel.
+- Se añadieron `README.md` y `.gitignore` para documentación operativa y limpieza del proyecto.
+- Consolidación de versión de la app: **v3.0.0**.

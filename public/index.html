@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentaciones | Landing</title>
+    <link rel="stylesheet" href="/recursos/app.css" />
+    <style>
+      .editor-cta { margin-top: 1rem; display: inline-flex; gap: .5rem; align-items: center; }
+    </style>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <img src="/recursos/logo-gestiona.svg" alt="Gestiona" class="brand-logo" />
+        <h1>Presentaciones</h1>
+        <p class="lead">Selecciona una presentación para visualizarla o abre el editor web.</p>
+        <a class="btn editor-cta" href="/editor.html">✏️ EDITAR</a>
+      </header>
+      <section>
+        <ul id="presentations-list" class="cards"></ul>
+      </section>
+    </main>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>
