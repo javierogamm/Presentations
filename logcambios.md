@@ -1,5 +1,23 @@
 # Log de cambios
 
+## v2.18.0 - 2026-04-29
+- En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se actualizó la diapositiva **04 Piezas del proceso** sustituyendo el icono de **Nodos o tareas** por `recursos/flujograma.png` para alinearlo con el concepto de flujo.
+- Se añadió una nueva diapositiva **05 Demo** con el mensaje “Veámoslo en la demo”, diseño de transición y animación suave (`elegant-float`) para conectar el bloque conceptual con la práctica.
+- En la diapositiva **08 Obtención de materiales** se eliminaron los chips “Completitud”, “Prioridad” y “Trazabilidad”.
+- En la misma diapositiva 08 se actualizaron textos:
+  - “Mapa de alta a cierre con responsables, SLAs y puntos de control.” → “Formularios y trámites de captura de datos y variables”.
+  - “Versionado de modelos, variables y reglas de firma por fase.” → “Reinterpretación de plantillas preexistentes para acelerar la configuración.”
+- Se insertó una nueva diapositiva de integración sistémica antes de la actual de flujo (etiquetada como **09 Sistema retroalimentado**) para representar la retroalimentación entre:
+  - Flujo y lógicas de tramitación,
+  - Modelo de datos del procedimiento,
+  - Agentes, roles y órganos resolutorios.
+- Se renumeraron etiquetas y pies de página para reflejar el nuevo total de **15 diapositivas**.
+- En la diapositiva **12 Agentes, roles y órganos resolutorios** se actualizaron iconos:
+  - izquierda (grupos y personas) → `recursos/personas.png`,
+  - roles de tramitación → `recursos/engranaje.png`,
+  - órganos resolutorios → `recursos/resolucion.png`.
+- Consolidación de versión de la app: **v2.18.0**.
+
 ## v2.17.0 - 2026-04-29
 - Se rediseñó la exportación de PresentaJSON en `app.js` para generar paquetes **autónomos**: las hojas de estilo externas ahora se sustituyen por `<style>` inline con su contenido cuando son accesibles.
 - Los scripts externos de cada presentación se transforman a scripts inline dentro del `head/body` exportado; si no se pueden recuperar en exportación se eliminan del documento autónomo para evitar referencias rotas.
