@@ -24,3 +24,9 @@
 - Se incorporó enfoque explícito de design thinking (Empatizar, Definir, Idear, Prototipar, Testear) en una slide específica.
 - Se reutilizaron los recursos visuales y de animación existentes copiando `styles-archivo.css`, `deck-stage.js` y `tweaks-panel.jsx` a la nueva carpeta.
 - Se mantuvo tono formativo orientado a clase magistral y consultoría aplicada en Gestiona.
+
+## v2.2.0 - 2026-04-29
+- Se movió la presentación original y sus dependencias al directorio `ARCHIVO/` para separar el histórico de la nueva app lanzadora.
+- Se creó una nueva app principal en `index.html` + `app.js` para listar y abrir directamente todas las presentaciones disponibles en pestañas nuevas.
+- Se creó la carpeta `recursos/` para centralizar assets comunes de la nueva app, incluyendo estilos (`recursos/app.css`) y recurso visual (`recursos/brand-wave.svg`).
+- Se dejó preparada la estructura para seguir agregando futuras presentaciones al arreglo `presentations` en `app.js`.
