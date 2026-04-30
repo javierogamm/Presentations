@@ -1,5 +1,12 @@
 # Log de cambios
 
+## v2.32.0 - 2026-04-30
+- En la diapositiva **09 Los componentes de un proceso** (`Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html`) se sustituyó la composición triangular por una composición **en línea** de tres bloques para evitar solapes y recortes.
+- Se reordenaron los bloques en secuencia horizontal (**Modelo de datos → Flujo y lógicas → Agentes y órganos**) con flechas intermedias y animación de aparición escalonada de una sola pasada.
+- En `Configuracion procesos - Gestiona/styles-config.css` se reemplazaron los estilos de posicionamiento absoluto por una grilla horizontal estable (`.components-inline`) con tarjetas centradas y espaciado consistente.
+- Se actualizó la versión visible de la app en `app.js` a **v2.32.0**.
+- Consolidación de versión de la app: **v2.32.0**.
+
 ## v2.31.0 - 2026-04-30
 - En la diapositiva **09 Los componentes de un proceso** (`Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html`) se eliminó el desplazamiento no deseado del bloque superior: la causa era la combinación de posicionamiento con la animación continua `elegant-float`, que alteraba su `transform` y lo movía hacia la derecha al poco de entrar.
 - Se redefinió la secuencia de entrada para que los tres bloques aparezcan **una sola vez y en cascada** (arriba → izquierda → derecha) usando `anim-3`, `anim-4` y `anim-5`, sin movimiento flotante posterior.
