@@ -1,5 +1,11 @@
 # Log de cambios
 
+## v2.25.0 - 2026-04-30
+- En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se reforzó la alineación centrada del texto en las cajas inferiores de la slide 13 aplicándola tanto al contenedor interno como al párrafo.
+- Se actualizó el color del círculo derecho al tono solicitado `#00ABD1`.
+- Se ajustó también el acento cromático de la caja derecha para mantener consistencia con el nuevo color del nodo final.
+- Consolidación de versión de la app: **v2.25.0**.
+
 ## v2.24.0 - 2026-04-30
 - En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se aplicó en la slide 13 la paleta exacta solicitada para nodos, conectores y acentos de cajas: `#002A33`, `#005366`, `#006E87`, `#00ABD1` y `#1FD6FF`.
 - Se ajustó el color de bordes de los círculos y el color de flechas para mantener coherencia visual por etapa.
