@@ -254,3 +254,8 @@
 - Se incorporó el logo de Gestiona en la esquina superior derecha del encabezado principal usando `recursos/logo-gestiona.svg` en `index.html`.
 - Se eliminó el botón flotante **Entrar en modo edición** y su lógica de visibilidad en los tres `tweaks-panel.jsx` (`ARCHIVO/`, `Archivo 2/`, `Configuracion procesos - Gestiona/`) para retirar la edición visual directa en línea.
 - Consolidación de versión de la app: **v2.18.0**.
+
+## v2.18.1 - 2026-04-30
+- Se eliminó la imagen decorativa del hero (`brand-wave.svg`) del landing para limpiar la cabecera visual.
+- Se sustituyó el logo de cabecera por `recursos/Gestiona-PANTONE.svg` en la esquina superior derecha.
+- Se actualizó la versión de la app a **v2.18.1** en `app.js` y se consolidó este ajuste en el registro de cambios.

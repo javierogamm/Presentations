@@ -27,7 +27,6 @@ body {
   padding: 1.25rem;
 }
 
-.hero__bg { position: absolute; right: -120px; top: -40px; width: 420px; opacity: .35; pointer-events: none; }
 .hero__logo { position: absolute; right: 1.25rem; top: 1.1rem; width: 120px; max-width: 30vw; z-index: 2; }
 
 .accordion { margin-top: 1rem; display: flex; flex-direction: column; gap: .8rem; }
