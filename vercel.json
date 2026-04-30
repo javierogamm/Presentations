@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/public/index.html" },
+    { "source": "/editor", "destination": "/public/editor.html" },
+    { "source": "/editor.html", "destination": "/public/editor.html" }
+  ]
+}
