@@ -1,5 +1,13 @@
 # Log de cambios
 
+## v2.21.0 - 2026-04-30
+- En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se reestructuró de nuevo la diapositiva **13 Cadena de construcción del proceso** para mejorar legibilidad real en pantalla.
+- Se eliminó el texto introductorio que comenzaba por **“De la documentación base...”** y se dejó el foco visual en título + secuencia de etapas.
+- Se ajustaron tamaños y proporciones (círculos, iconos, flechas y tarjetas) para evitar saturación y mejorar lectura horizontal.
+- Se refinó el contenido textual de las tarjetas inferiores para reducir longitud sin perder significado funcional.
+- Se aplicó una progresión cromática explícita de izquierda a derecha en círculos y conectores: de azul claro (`#51bfdc`) a azul profundo (`#2a6bc0`).
+- Consolidación de versión de la app: **v2.21.0**.
+
 ## v2.20.0 - 2026-04-30
 - En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se rediseñó la diapositiva **13 Cadena de construcción del proceso** para aproximarla visualmente a un esquema de etapas con círculos prominentes.
 - Se sustituyó la composición de tarjetas lineales por una estructura de **4 nodos circulares** con doble aro y gradiente interior, reforzando el peso visual de cada etapa.
