@@ -1,5 +1,13 @@
 # Log de cambios
 
+## v2.29.0 - 2026-04-30
+- En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se centró el CTA de la diapositiva **07 Normativa** y se añadió una clase dedicada para animación recurrente suave del botón **NORMATIVA** (micro-shake cada 3s).
+- En `Configuracion procesos - Gestiona/styles-config.css` se incorporaron `@keyframes subtleShake`, `.normativa-cta-wrap` y `.normativa-btn--shake` para resolver centrado + animación periódica sin romper la estética corporativa.
+- En la diapositiva **09 Los componentes de un proceso** se rehízo el layout a composición triangular con flechas entre bloques, acercando título y texto al header para ganar jerarquía visual.
+- En esa misma diapositiva se recolocaron los iconos **debajo del texto** en cada bloque y se escalaron un ~20% respecto al estado previo (150→180 y 180→216), además de mejorar el estilo visual de tarjetas para un resultado más diferencial y moderno.
+- Se actualizó la versión visible de la app en `app.js` a **v2.29.0**.
+- Consolidación de versión de la app: **v2.29.0**.
+
 ## v2.28.0 - 2026-04-30
 - En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se añadió en la **slide 07 Normativa** un botón **NORMATIVA** con enlace externo a ESPUBLICO (`https://www.espublico.com/BD/getNorma/644?ancla=a71`) ubicado bajo las tres tarjetas para encaje visual natural.
 - En `Configuracion procesos - Gestiona/styles-config.css` se incorporó el estilo `.normativa-btn` (botón tipo píldora, paleta corporativa teal, microinteracción hover y foco visible) para mantener coherencia elegante con el resto de la presentación.
