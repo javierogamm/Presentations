@@ -1,5 +1,19 @@
 # Log de cambios
 
+## v2.19.0 - 2026-04-30
+- En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se añadió una nueva diapositiva antes de **Bloque 3** con el título **Cadena de construcción del proceso**.
+- La nueva slide incorpora una disposición horizontal inspirada en cadena de etapas (tarjetas + flechas), manteniendo la paleta y el estilo visual existente de la presentación.
+- Se incorporó el flujo solicitado en 4 etapas:
+  - **Obtención de información** (normativa y documentos),
+  - **Barebones de proceso** (identificación de nodos, subprocesos y traducción funcional),
+  - **Iteración con responsables y agentes** (asignaciones y rediseño),
+  - **Ajuste del diagrama de proceso** (correcciones, nodos especiales e integración).
+- Se renumeraron las etiquetas de secciones posteriores:
+  - `13 Bloque 3` → `14 Bloque 3`
+  - `14 Cierre` → `15 Cierre`
+- Se actualizó el contador de la diapositiva de cierre a **15 / 16** para reflejar el nuevo total.
+- Consolidación de versión de la app: **v2.19.0**.
+
 ## v2.18.0 - 2026-04-29
 - En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se actualizó la diapositiva **04 Piezas del proceso** sustituyendo el icono de **Nodos o tareas** por `recursos/flujograma.png` para alinearlo con el concepto de flujo.
 - Se añadió una nueva diapositiva **05 Demo** con el mensaje “Veámoslo en la demo”, diseño de transición y animación suave (`elegant-float`) para conectar el bloque conceptual con la práctica.
