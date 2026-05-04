@@ -1,5 +1,13 @@
 # Log de cambios
 
+## v2.44.0 - 2026-05-04
+- En `Archivo (medios)/Archivo electronico - Gestiona.html` se añadió una nueva diapositiva final **Roadmap de evolución del archivo electrónico** con diagrama timeline simple y animado, coherente con la paleta teal/azul del deck.
+- La slide incorpora los 4 evolutivos solicitados reinterpretados por fases: **Gestión de plazos en fase archivo**, **Descripción archivística profunda**, **Gestión de eliminaciones** y **Acceso externo (OPAC)**.
+- Se actualizó el contador de portada de esta presentación de **11** a **12** slides y se ajustaron pies visibles a **10 / 12**, **11 / 12** y **12 / 12** según el nuevo cierre.
+- Se actualizó la versión visible de la app en `app.js` a **v2.44.0**.
+- Consolidación de versión de la app: **v2.44.0**.
+
+
 ## v2.43.0 - 2026-05-04
 - En `Archivo (medios)/Archivo electronico - Gestiona.html` se ajustó la diapositiva de **Funcionalidades de archivo en Gestiona** para usar una paleta más alineada con el resto del deck (teales/azules corporativos menos saturados).
 - Se corrigió la alineación de los hitos circulares para que queden centrados sobre la línea vertical discontinua.
