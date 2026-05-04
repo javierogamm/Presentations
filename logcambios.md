@@ -1,5 +1,14 @@
 # Log de cambios
 
+## v2.43.0 - 2026-05-04
+- En `Archivo (medios)/Archivo electronico - Gestiona.html` se ajustó la diapositiva de **Funcionalidades de archivo en Gestiona** para usar una paleta más alineada con el resto del deck (teales/azules corporativos menos saturados).
+- Se corrigió la alineación de los hitos circulares para que queden centrados sobre la línea vertical discontinua.
+- Se movió la slide de funcionalidades al final de la presentación, quedando como cierre visual del itinerario.
+- Se actualizó su pie a **11 / 11** para reflejar la nueva posición final.
+- Se actualizó la versión visible de la app en `app.js` a **v2.43.0**.
+- Consolidación de versión de la app: **v2.43.0**.
+
+
 ## v2.42.0 - 2026-05-04
 - En `Archivo (medios)/Archivo electronico - Gestiona.html` se añadió una nueva diapositiva de **Funcionalidades de archivo en Gestiona** con distribución inspirada en el layout de referencia (línea vertical + 4 cápsulas horizontales), manteniendo estética y tono de la presentación.
 - La nueva slide incorpora las 4 capacidades solicitadas con texto contextual: **Conservación de larga duración**, **Clasificación archivística**, **Descripción ENI y complementaria** y **Custodia y acceso interno**.
