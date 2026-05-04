@@ -1,5 +1,14 @@
 # Log de cambios
 
+## v2.40.0 - 2026-05-04
+- Se creó la nueva carpeta de presentación `Archivo (medios)/` como duplicado editado de `Archivo 2/`.
+- En `Archivo (medios)/Archivo electronico - Gestiona.html` se ajustó la diapositiva **05 Ciclo de vida** para evitar la superposición del subtítulo y se reequilibró la maquetación de las 3 cajas para ocupar todo el ancho disponible.
+- En esa misma presentación se eliminaron las diapositivas de bloque **Resellado** y **Timeline de caducidad** (secciones 11 y 12 del archivo base), quedando una versión más corta para medios.
+- Se añadió el nuevo acceso de nivel 2 **Archivo (medios)** dentro del bloque **Archivo** en el landing (`app.js`).
+- Se actualizó la versión visible de la app en `app.js` a **v2.40.0**.
+- Consolidación de versión de la app: **v2.40.0**.
+
+
 ## v2.39.0 - 2026-05-04
 - Se reordenó el landing (`app.js`) para estructurar el acordeón en dos niveles, dejando como nivel 1: **Archivo**, **Gestión de Procesos** y **GFD**.
 - Dentro de **Archivo** (nivel 2) se incluyeron accesos a **ARCHIVO** y **ARCHIVO 2**.

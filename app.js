@@ -1,4 +1,4 @@
-const APP_VERSION = 'v2.39.0';
+const APP_VERSION = 'v2.40.0';
 
 const presentationGroups = [
   {
@@ -15,6 +15,12 @@ const presentationGroups = [
         title: 'Archivo 2 - Gestiona',
         path: 'Archivo 2/Archivo electronico - Gestiona.html',
         description: 'Segunda variante de la presentación de archivo.'
+      },
+      {
+        name: 'Archivo (medios)',
+        title: 'Archivo (medios) - Gestiona',
+        path: 'Archivo (medios)/Archivo electronico - Gestiona.html',
+        description: 'Duplicado editado de ARCHIVO 2 para el itinerario de medios.'
       }
     ]
   },
