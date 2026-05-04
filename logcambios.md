@@ -1,5 +1,20 @@
 # Log de cambios
 
+## v2.38.0 - 2026-05-04
+- Se refinó de nuevo la diapositiva **23 Circuitos de resolución — Simples** en `GFD/Reglada - CODE - Gestiona.html` para ajustarla más al esquema de referencia, reduciendo todavía más el título (`36px`) y manteniéndolo en la zona alta sin invadir cabecera.
+- Se corrigió la superposición visual de iconos y nodos del flujo reubicando coordenadas de `docuverde.svg` y `puntosverdes.svg` para que cada hito quede limpio y separado.
+- Se recalcularon trazados de conectores (rama superior/inferior y tramo final de notificación/publicación) para mantener lectura horizontal clara y consistente con el layout solicitado.
+- Se mantuvo la animación de flujo y se consolidó la versión de app a **v2.38.0** en `app.js`.
+- Consolidación de versión de la app: **v2.38.0**.
+
+## v2.37.0 - 2026-05-04
+- En `GFD/Reglada - CODE - Gestiona.html` (diapositiva **23 Circuitos de resolución — Simples**) se redujo el peso visual del título y se reposicionó más arriba para evitar cualquier solape con la cabecera/logo.
+- En esa misma diapositiva se aumentó la ocupación vertical del diagrama elevando la altura del contenedor SVG (`height:470` con `preserveAspectRatio="none"`) para evitar el efecto achatado y equilibrar el espacio útil.
+- Se sustituyeron los iconos internos del flujo para usar explícitamente `recursos/docuverde.svg` y `recursos/puntosverdes.svg` mediante símbolos SVG reutilizables.
+- Se añadió animación de flujo en el diagrama: pulsado secuencial de iconos (`flowPulse`) y desplazamiento de guías en líneas de proceso (`flowDash`) para reforzar lectura dinámica del circuito.
+- Se actualizó la versión visible de la app en `app.js` a **v2.37.0**.
+- Consolidación de versión de la app: **v2.37.0**.
+
 ## v2.36.0 - 2026-05-04
 - Se reajustaron proporciones y tamaños tipográficos de los SVG en `GFD/Reglada - CODE - Gestiona.html` para evitar solapes y mejorar legibilidad en las diapositivas 23 y 24.
 - En la diapositiva **23 Circuitos de resolución — Simples** se sustituyeron los iconos previos por una representación SVG clara de **documento** (con pliegue de esquina), manteniendo fidelidad visual con el diagrama objetivo.
