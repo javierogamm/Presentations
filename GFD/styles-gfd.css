@@ -1,0 +1,230 @@
+/* GFD — Gestión de Formularios Dinámicos · sistema visual */
+
+:root {
+  --teal-900: #052b33;
+  --teal-800: #0a3a44;
+  --teal-700: #0f5a68;
+  --teal-600: #1a7f8e;
+  --teal-500: #2aa3b1;
+  --teal-400: #3fc4d0;
+  --teal-300: #6fdfe5;
+  --teal-200: #b8eef1;
+  --teal-100: #e3f7f8;
+  --teal-50:  #f4fbfb;
+
+  --mint:    #2fe6b8;
+  --amber:   #d97a3a;
+  --crimson: #c0524a;
+
+  --ink-900: #0a1416;
+  --ink-700: #2a3a3e;
+  --ink-500: #5b7075;
+  --ink-300: #9aa9ad;
+  --ink-200: #c8d2d4;
+  --ink-100: #e6ebec;
+  --ink-50:  #f5f7f7;
+  --paper:   #fbfcfc;
+
+  --font-sans:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+  --font-display: "Inter", system-ui, sans-serif;
+
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 24px;
+  --r-xl: 36px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #06181c; font-family: var(--font-sans); }
+
+deck-stage section {
+  width: 1920px;
+  height: 1080px;
+  background: var(--paper);
+  color: var(--ink-900);
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 1.45;
+  letter-spacing: -0.005em;
+  overflow: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* === Chrome slide interior === */
+.frame {
+  position: absolute; inset: 0;
+  display: grid;
+  grid-template-rows: 88px 1fr 64px;
+  padding: 56px 96px 36px;
+}
+.frame > .head {
+  display: flex; align-items: center; justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 22px; font-weight: 500;
+  color: var(--ink-300);
+  letter-spacing: 0.12em; text-transform: uppercase;
+}
+.frame > .head .brand-mini {
+  display: flex; align-items: center; gap: 16px;
+}
+.frame > .head .brand-mini img {
+  height: 32px; width: auto; opacity: .9;
+}
+.frame > .head .sep {
+  display: block; width: 1px; height: 22px; background: var(--ink-200);
+}
+.frame > .body {
+  display: flex; align-items: center; gap: 80px;
+}
+.frame > .foot {
+  display: flex; align-items: center; justify-content: space-between;
+  font-family: var(--font-mono); font-size: 20px;
+  color: var(--ink-300); letter-spacing: 0.08em;
+}
+.foot .num { font-weight: 600; color: var(--teal-500); }
+
+/* === Portada === */
+.cover-gfd {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--teal-900) 0%, var(--teal-700) 60%, var(--teal-600) 100%);
+  color: var(--teal-50);
+  display: flex; flex-direction: column;
+  padding: 80px 96px;
+  gap: 0;
+}
+.cover-gfd .top-row {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 48px;
+}
+.cover-gfd .brand-chip {
+  display: flex; align-items: center; gap: 18px;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15);
+  border-radius: 40px; padding: 10px 24px;
+  font-family: var(--font-mono); font-size: 22px; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal-200);
+}
+.cover-gfd .brand-chip img { height: 32px; width: auto; }
+.cover-gfd .brand-chip .sep { display: block; width: 1px; height: 22px; background: var(--teal-400); }
+.cover-gfd .session-tag {
+  font-family: var(--font-mono); font-size: 20px; font-weight: 500;
+  color: var(--teal-300); letter-spacing: 0.1em; text-transform: uppercase;
+}
+.cover-gfd .left { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 32px; }
+.cover-gfd h1 {
+  font-size: 112px; font-weight: 800; line-height: 1.0;
+  letter-spacing: -0.03em; margin: 0;
+  color: var(--teal-50);
+}
+.cover-gfd h1 .thin  { font-weight: 300; }
+.cover-gfd h1 .accent { color: var(--teal-300); }
+.cover-gfd .subtitle {
+  font-size: 30px; font-weight: 400; line-height: 1.55;
+  color: var(--teal-200); max-width: 860px; margin: 0;
+}
+
+/* === Divisor de bloque === */
+.section-divider {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--teal-800) 0%, var(--teal-700) 100%);
+  color: var(--teal-50);
+  display: flex; align-items: center; gap: 96px;
+  padding: 0 120px;
+}
+.section-divider .big-num {
+  font-size: 240px; font-weight: 900;
+  color: rgba(255,255,255,.08); line-height: 1;
+  font-family: var(--font-display);
+  flex-shrink: 0;
+}
+.section-divider .body { display: flex; flex-direction: column; gap: 16px; }
+.section-divider .eyebrow {
+  font-family: var(--font-mono); font-size: 22px; font-weight: 500;
+  color: var(--teal-300); letter-spacing: 0.12em; text-transform: uppercase; margin: 0;
+}
+.section-divider h2 {
+  font-size: 88px; font-weight: 800; margin: 0; line-height: 1.0;
+  letter-spacing: -0.025em; color: var(--teal-50);
+}
+.section-divider .subtitle {
+  font-size: 30px; font-weight: 400; color: var(--teal-200); margin: 0;
+}
+
+/* === Tipografía reutilizable === */
+.h2 { font-size: 56px; font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 8px; }
+.display-eyebrow {
+  font-family: var(--font-mono); font-size: 20px; font-weight: 500;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal-600); margin: 0 0 12px;
+}
+.body { font-size: 26px; line-height: 1.5; color: var(--ink-700); margin: 0; }
+.crumb { color: var(--teal-500); font-weight: 600; }
+
+/* === Tarjetas === */
+.norm-quote {
+  display: flex; align-items: flex-start; gap: 20px;
+  background: var(--teal-50); border: 1px solid var(--teal-200);
+  border-radius: var(--r-md); padding: 28px 28px;
+  color: var(--ink-900);
+}
+.norm-quote .scale {
+  font-size: 48px; font-weight: 900; color: var(--teal-400);
+  line-height: 1; flex-shrink: 0; font-family: var(--font-display);
+}
+.norm-quote b { display: block; font-size: 26px; font-weight: 700; margin-bottom: 6px; color: var(--ink-900); }
+
+.media-quote { align-items: center; }
+.quote-visual { width: 72px; height: 72px; object-fit: contain; flex-shrink: 0; }
+
+/* === Animaciones === */
+@keyframes enterLeft  { from { opacity: 0; transform: translateX(-40px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes enterUp    { from { opacity: 0; transform: translateY(28px); }  to { opacity: 1; transform: translateY(0); } }
+@keyframes elegantFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+
+.anim { opacity: 0; }
+deck-stage section[data-deck-active] .anim { opacity: 1; }
+deck-stage section[data-deck-active] .anim-1 { animation: enterUp .5s .10s ease both; }
+deck-stage section[data-deck-active] .anim-2 { animation: enterUp .5s .20s ease both; }
+deck-stage section[data-deck-active] .anim-3 { animation: enterUp .5s .35s ease both; }
+deck-stage section[data-deck-active] .anim-4 { animation: enterUp .5s .50s ease both; }
+deck-stage section[data-deck-active] .anim-5 { animation: enterUp .5s .65s ease both; }
+deck-stage section[data-deck-active] .anim-6 { animation: enterUp .5s .80s ease both; }
+
+.enter-ltr { animation-name: enterLeft !important; }
+
+/* === Cierre === */
+.closing-slide {
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--teal-900) 0%, var(--teal-700) 100%);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 32px; color: var(--teal-50);
+  text-align: center; padding: 80px;
+}
+.closing-slide img { height: 56px; width: auto; opacity: .9; margin-bottom: 16px; }
+.closing-slide h2 { font-size: 72px; font-weight: 800; margin: 0; letter-spacing: -0.02em; }
+.closing-slide p  { font-size: 28px; color: var(--teal-200); max-width: 700px; margin: 0; }
+
+/* === Utilidades de layout === */
+.col-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.col-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--teal-100); color: var(--teal-700);
+  border-radius: 40px; padding: 6px 20px;
+  font-size: 22px; font-weight: 600;
+}
+
+.tag-bar { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+
+.highlight-block {
+  background: linear-gradient(120deg, var(--teal-700), var(--teal-600));
+  border-radius: var(--r-lg); padding: 36px 48px;
+  color: var(--teal-50);
+}
+.highlight-block h3 { font-size: 40px; font-weight: 800; margin: 0 0 12px; }
+.highlight-block p  { font-size: 26px; color: var(--teal-200); margin: 0; }

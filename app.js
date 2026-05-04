@@ -1,4 +1,4 @@
-const APP_VERSION = 'v2.33.0';
+const APP_VERSION = 'v2.34.0';
 
 const presentationFolders = [
   {
@@ -18,6 +18,12 @@ const presentationFolders = [
     title: 'Configuración de procesos - Gestiona',
     path: 'Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html',
     description: 'Presentación enfocada en flujos y configuración de procesos.'
+  },
+  {
+    name: 'GFD',
+    title: 'Gestión de Formularios Dinámicos - Gestiona',
+    path: 'GFD/Gestión de Formularios Dinámicos - Gestiona.html',
+    description: 'Diseño, configuración y explotación de formularios dinámicos: tipado fuerte, lógica condicional y vinculación con el proceso.'
   }
 ];
 

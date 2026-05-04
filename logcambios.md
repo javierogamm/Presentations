@@ -1,5 +1,11 @@
 # Log de cambios
 
+## v2.34.0 - 2026-05-04
+- Se creó la carpeta `GFD/` con la nueva presentación **Gestión de Formularios Dinámicos - Gestiona** (7 diapositivas): portada, contenidos, dos bloques temáticos (qué es un formulario dinámico; diseño y validación), sus divisores de sección y cierre.
+- Se incorporó `GFD/styles-gfd.css` con el sistema visual coherente con el resto de presentaciones (paleta teal, tipografía Inter + JetBrains Mono, animaciones de entrada).
+- Se añadió en el landing (`app.js`) la entrada **GFD** apuntando a `GFD/Gestión de Formularios Dinámicos - Gestiona.html`.
+- Se actualizó la versión de la app a **v2.34.0**.
+
 ## v2.33.0 - 2026-04-30
 - En `Configuracion procesos - Gestiona/Configuración de procesos - Gestiona.html` se movió la diapositiva **Modelo de datos del procedimiento** para situarla después de **Cadena de construcción del proceso**, según el orden solicitado.
 - Se renumeraron las etiquetas de sección para mantener la secuencia narrativa: **11 Agentes y órganos**, **12 Cadena de construcción del proceso**, **13 Modelo de datos**.
